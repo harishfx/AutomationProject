@@ -14,6 +14,7 @@ public class ValidLogin extends BaseTest
 		login.setUserName(Lib.getCellValue("ValidLogin", 1, 0));
 		login.setPassword(Lib.getCellValue("ValidLogin", 1, 1));
 		login.clickLogin();
+
 				
 	}
 
